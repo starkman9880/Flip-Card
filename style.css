@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #e9d1f5;
+    padding: 20px;
+    display: flex;
+}
+
+.card-main-wrap{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.card-before{
+    width: 300px;
+    height: 400px;
+    background-color: #7732A6;
+    margin: 0 auto;
+    position: relative;
+    clip-path: polygon(100% 0, 100% 90%, 86% 100%, 0 100%, 0 0);
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-after{
+    width: 280px;
+    height: 380px;
+    background-color: rgb(243, 241, 213);
+    margin: 0 auto;
+    position: relative;
+    clip-path: polygon(100% 0, 100% 90%, 86% 100%, 0 100%, 0 0);
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    border: 1px solid rgb(250, 204, 238);
+    color:rgb(64, 4, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.corner-box{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(58, 10, 90);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    color: white;
+    font-size: 22px;
+}
+
+.corner-box-after{
+    background-color: gray;
+}
